@@ -273,22 +273,17 @@ main h2 {
 
 /* Footer settings */
 
-footer {
-    background-color: #28282B;
-    margin-bottom: -220px;
-}
-
 .footer_h3 {
     text-align: center;
     font-family: Roboto;
     margin-top: -20px;
     padding-top: 20px;
-    color: #FFE5B4;
+    color: #9F2B68;
 }
 
 footer a {
     text-decoration: none;
-    color: #FFFFF0;
+    color: #28282B;
     display: block;
     text-align: center;
     margin-top: 10px;
