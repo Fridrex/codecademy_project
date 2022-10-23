@@ -293,10 +293,10 @@ footer a {
     margin-top: 10px;
     padding-bottom: 10px;
     font-size: 2rem;
+    height: auto;
     transition: 0.2s ease;
 }
 
 footer a:hover {
-    margin-top: -1px;
     color: red;
 }
