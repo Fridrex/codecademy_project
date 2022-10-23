@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="header_h1" id="start">My Website Style Guide</h1>
+            <p class="header_description">This page contains all most frequently used CSS styles such as colors, fonts and rule sets of styles</p>
+        </header>
+        <nav>
+        <div class="nav_container">
+            <ul class="main_nav">
+                <li class="color_link">
+                    <a href="#color_pallete">Color Pallete</a>
+                </li>
+                <li class="font_link">
+                    <a href="#fonts">Fonts</a>
+                </li>
+                <li class="ruleset_link">
+                    <a href="#rulesets">Rule Sets</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <main>
+            <h2 class="colors_h2">Color Pallete</h2>
+            <div class="colors_container" id="color_pallete">
+                <div class="blue">
+                    <p class="blue_p">Better Blue</p>
+                    <p class="blue_hex">#1434A4</p>
+                </div>
+                <div class="black">
+                    <p class="black_p">Matte Black</p>
+                    <p class="black_hex">#28282B</p>
+                </div>
+                <div class="white">
+                    <p class="white_p">Ivory</p>
+                    <p class="white_hex">#FFFFF0</p>
+                </div>
+                <div class="peach">
+                    <p class="peach_p">Peach</p>
+                    <p class="peach_hex">#FFE5B4</p>
+                </div>
+                <div class="purple">
+                    <p class="purple_p">Amaranth</p>
+                    <p class="purple_hex">#9F2B68</p>
+                </div>
+                <div class="midnight_blue">
+                    <p class="midnight_p">Midnight Blue</p>
+                    <p class="midnight_hex">#191970</p>
+                </div>
+            </div>
+            <h2 class="fonts_h2">Fonts</h2>
+            <div class="fonts_container" id="fonts">
+                <div class="roboto">
+                    <h3 class="roboto_h3">Roboto</h3>
+                    <p class="roboto_400">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="roboto_bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="roboto_italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="merriweather">
+                    <h3 class="merriweather_h3">Merriweather</h3>
+                    <p class="mw_400">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="mw_bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="mw_italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="montserrat">
+                    <h3 class="montserrat_h3">Montserrat</h3>
+                    <p class="ms_400">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="ms_bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="ms_italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="raleway">
+                    <h3 class="raleway_h3">Raleway</h3>
+                    <p class="rw_400">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="rw_bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="rw_italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>           
+            </div>
+            <h2 class="ruleset_h2">Some of rule sets</h2>
+            <div class="rulesets_container" id="rulesets">
+                <div class="html_rules">
+                    <p class="html_rules_p">The best practice to set border-box to box-sizing into html selector:</p>
+                    <code class="html_rules_code">html {box-sizing: border-box}</code>
+                </div>
+                <div class="all_rules">
+                    <p class="all_rules_p">The best practice to clear margin and padding from all the page using * selector:</p>
+                    <code class="all_rules_code">* {margin: 0; padding: 0}</code>
+                </div>
+                <div class="import_rules">
+                    <p class="import_rules_p">The best practice is to import new fonts via import them into your CSS file using @import:</p>
+                    <code class="import_rules_code">@import url('font source url')</code>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h3 class="footer_h3">Thank you for visiting! Best wishes!</h3>
+            <a href="#start">TO THE START</a>
+        </footer>
+    </div>
+</body>
+</html>

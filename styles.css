@@ -1,0 +1,302 @@
+/* Fonts imported */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* global settings */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFF0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* Header settings */
+
+header {
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #9F2B68;
+}
+
+.header_h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    padding: 0 20px;
+}
+
+.header_description {
+    font-size: 1.2rem;
+    line-height: 0.9;
+    letter-spacing: 1px;
+}
+
+/* Nav settings */
+
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #191970;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+}
+
+.main_nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.main_nav li a {
+    text-decoration: none;
+    color: #191970;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+
+.main_nav li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Main settings */
+
+main {
+    padding: 1rem;
+    font-family: Roboto;
+}
+
+main h2 {
+    text-align: center;
+}
+
+/* Color pallete settings */
+
+.colors_h2 {
+    color: #9F2B68;
+}
+
+.colors_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.colors_container div {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.2s ease-in-out;
+}
+
+.colors_container div:hover {
+    transform: scale(1.1);
+}
+
+.colors_container div p {
+    font-weight: 800;
+}
+
+.blue {
+    background-color: #1434A4;
+    color: white;
+}
+
+.black {
+    background-color: #28282B;
+    color: wheat;
+}
+
+.white {
+    background-color: #FFFFF0;
+}
+
+.peach {
+    background-color: #FFE5B4;
+}
+
+.purple {
+    background-color: #9F2B68;
+    color: white;
+}
+
+.midnight_blue {
+    background-color: #191970;
+    color: beige;
+}
+
+/* Fonts settings */
+
+.fonts_h2 {
+    color: #9F2B68;
+}
+
+.fonts_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fonts_container div {
+    transition: 0.2s ease;
+    padding: 20px;
+}
+
+.fonts_container div:hover {
+    transform: scale(1.1);
+    border: 1px solid #191970;
+}
+
+.fonts_container div h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1434A4;
+}
+
+.fonts_container div p {
+    margin: 5px;
+    color: #191970;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.roboto_400 {
+    font-weight: 400;
+}
+
+.roboto_bold {
+    font-weight: bold;
+}
+
+.roboto_italic {
+    font-style: italic;
+}
+
+.merriweather {
+    font-family: Merriweather;
+}
+
+.mw_400 {
+    font-weight: 400;
+}
+
+.mw_bold {
+    font-weight: bold;
+}
+
+.mw_italic {
+    font-style: italic;
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.ms_400 {
+    font-weight: 400;
+}
+
+.ms_bold {
+    font-weight: bold;
+}
+
+.ms_italic {
+    font-style: italic;
+}
+
+.raleway {
+    font-family: Raleway;
+}
+
+.rw_400 {
+    font-weight: 400;
+}
+
+.rw_bold {
+    font-weight: bold;
+}
+
+.rw_italic {
+    font-style: italic;
+}
+
+/* Rule sets settings */
+
+.ruleset_h2 {
+    margin-bottom: 20px;
+    color: #9F2B68;
+}
+
+.rulesets_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.rulesets_container div {
+    margin: 20px;
+    color: #1434A4;
+}
+
+.rulesets_container div code {
+    background-color: #28282B;
+    color: #FFFFF0;
+}
+
+/* Footer settings */
+
+footer {
+    background-color: #28282B;
+}
+
+.footer_h3 {
+    text-align: center;
+    font-family: Roboto;
+    margin-top: -20px;
+    padding-top: 20px;
+    color: #FFE5B4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFF0;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    transition: 0.2s ease;
+}
+
+footer a:hover {
+    margin-top: -1px;
+    color: red;
+}
